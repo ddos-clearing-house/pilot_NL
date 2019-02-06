@@ -1,2 +1,2 @@
-# pilot_NL
-DDoS Clearing House Pilot NL
+# DDoS Clearing House -- Pilot The Netherlands
+
