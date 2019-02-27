@@ -32,13 +32,21 @@
 %\usepackage[hyphens]{url}
 \usepackage{hyperref}
 \usepackage{breakurl}
-\hypersetup{colorlinks, citecolor=blue, filecolor=blue, linkcolor=blue, urlcolor=blue}
+\hypersetup{colorlinks, citecolor=blue, filecolor=blue, linkcolor=blue,urlcolor=blue}
 %-------------------------------------------------------------------------------
 % FOR ACRONYMS 
 %-------------------------------------------------------------------------------
 \newcommand{\eg}{\textit{\mbox{e.g.,~}}} 
 \newcommand{\ie}{\textit{\mbox{i.e.,~}}} 
 \newcommand{\et}{\textit{\mbox{et al.~}}}
+
+%-------------------------------------------------------------------------------
+% VARIABLES
+%-------------------------------------------------------------------------------
+\newcommand{\DDOSDBMULTIVECTORKEYS}{????~}
+\newcommand{\DDOSDBINSTANCES}{????~}
+\newcommand{\PROTECTEDORGANISATIONS}{????~}
+
 %-------------------------------------------------------------------------------
 % COPYRIGHT
 %-------------------------------------------------------------------------------
@@ -52,7 +60,7 @@
 %\setcopyright{cagov}
 %\setcopyright{cagovmixed}
 
-\settopmatter{printacmref=false, printccs=false, printfolios=true}
+\settopmatter{printacmref=false, printccs=false, printfolios=false}
 
 % DOI
 \acmDOI{}
@@ -68,25 +76,27 @@
 %% {} with no args suppresses printing of the price
 \acmPrice{}
 
-
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \begin{document}
 %------------------------------------------------------------------------------
 % TITLE
 %------------------------------------------------------------------------------
-\title{On the usage of a DDoS Clearing House, DDoSDB,\\DDoS Dissector, and DDoS Fingerprint.}
-\subtitle{Standing on the shoulders of giants for solving DDoS attack}
+\title{Solving DDoS Attacks\\by Standing on the Shoulders of Giants}
+\subtitle{DDoS Clearing House, DDoSDB, DDoS Dissector, DDoS Fingerprint and Converters}
 \titlenote{This document was not peer-reviewed.}
 %------------------------------------------------------------------------------
 % AUTHORS
 %-------------------------------------------------------------------------------
 % \author{Paper \# XXX, XXX pages}
-\author{Jair Santanna}
-\affiliation{\institution{University of Twente}  \streetaddress{The Netherlands}}
-\email{j.j.santanna@utwente.nl}
+%\author{Jair Santanna}
+%\affiliation{\institution{University of Twente}  \streetaddress{The Netherlands}}
+%\email{j.j.santanna@utwente.nl}
+%
+%\author{Koen van Hove}
+%\affiliation{\institution{University of Twente}	\streetaddress{The Netherlands}}
+%\email{k.w.vanhove@student.utwente.nl}
 
-\author{Koen van Hove}
-\affiliation{\institution{University of Twente}	\streetaddress{The Netherlands}}
-\email{k.w.vanhove@student.utwente.nl}
 
 %\author{João Ceron}
 %\affiliation{\institution{University of Twente}	\streetaddress{The Netherlands}}
@@ -105,16 +115,16 @@
 %------------------------------------------------------------------------------
 % ABSTRACT
 %-------------------------------------------------------------------------------
-\input{sections/00_abstract}
+%\input{sections/00_abstract}
 \maketitle
 %------------------------------------------------------------------------------
 % SECTIONS
 %-------------------------------------------------------------------------------
 \input{sections/01_introduction}
-\input{sections/02_misconceptions}
-\input{sections/03_fingerprint}
+\input{sections/02_ddos_dissector}
+\input{sections/03_fingerprint_converters}
 \input{sections/04_ddosdb}
-\input{sections/05_usage}
+\input{sections/05_ddos_clearinghouse}
 \input{sections/06_conclusions}
 %------------------------------------------------------------------------------
 % BIBLIOGRAPHY
@@ -123,4 +133,5 @@
 \bibliographystyle{unsrtnat} %abbrvnat OR unsrtnat OR plainnat
 \bibliography{reference}
 %-------------------------------------------------------------------------------
+\input{sections/07_acknowledgements}
 \end{document}
