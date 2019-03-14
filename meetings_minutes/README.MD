@@ -20,7 +20,7 @@ In this repository we store the minutes of meetings between members of the NL DD
 <@Benno TODO>
 
 - High-level roadmap [NCSC, SIDN and Utwente]
-<@Benno TODO>
+<@Jair TODO>
 
 - ddosdb.nl status [SIDN]
 <@Benno TODO>
