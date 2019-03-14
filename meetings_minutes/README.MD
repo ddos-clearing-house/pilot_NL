@@ -3,4 +3,4 @@ In this repository we store the minutes of meetings between members of the NL DD
 
 ## List of meetings
 
-- (14/03/2019 (Host: KPN))[20190314_kpn]
+- [14/03/2019 (Host: KPN)](20190314_kpn)
