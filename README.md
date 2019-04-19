@@ -1,8 +1,11 @@
 # DDoS Clearing House -- Pilot The Netherlands
 
 
-### Other (somehow similar) projects:
-**Although all are great, none of the projects bellow create/share/use DDoS attack fingerprints for any purpose!**
+## RELATED WORK
+**Other (somehow similar) projects, although all are great, none of the projects bellow create/share/use DDoS attack fingerprints for any purpose!**
+
+- https://galois.com/project/3dcop-ddos-defense/
+  - "The DDoS Defense for a Community of Peers (3DCoP) uses a unique collaborative model wherein multiple organizations work together to detect DDoS attacks, compute mitigations, and convince service providers to take action. Our solution advances the state of DDoS defense by providing new tools that allow multiple defenders to coordinate their response, resulting in earlier detection and faster DDoS mitigation. Underlying our implementation is a unique traffic flow monitoring capability, which observes traffic flows in and out of the enclave and finds patterns of interest."
 
 - https://www.impactcybertrust.org 
   - "IMPACT supports the global cyber-risk research & development community by coordinating and developing real-world data and information-sharing capabilities between academia, industry and government. It is the only freely-available, legally-collected, distributed repository of large-scale cybersecurity data and analytics tools allowing researchers to advance the state-of-the-art in cyber-risk R&D and decision support."
