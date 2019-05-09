@@ -40,7 +40,7 @@
 	- add sflow as input file
 	- analyse all the fields in the filtered attack (for identifying additional valuable information) 
 
-## Rights
+## Regarding Access Rights
 - User: can see, query and download (fingerprint and filtered anonymised data)
 - Collaborator: is a user that can upload (fingerprints and filtered anonymised data) AND get the automatically generated rules
 - Maintainer: is a collaborator that that
