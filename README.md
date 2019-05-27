@@ -15,3 +15,6 @@
 
 - https://sissden.eu
   - "SISSDEN is a Horizon 2020 project aimed at improving the cybersecurity posture of EU entities and end users through the development of situational awareness and sharing of actionable information. It builds on the experience of The Shadowserver Foundation, a non-profit organization well known in the security community for its efforts in mitigation of botnet and malware propagation, free of charge victim notification services, and close collaboration with Law Enforcement Agencies, national CERTs, and network providers." 
+
+- https://kb.mazebolt.com
+  - "MazeBolt provides the most relevant and actionable cyber security data to decision makers to help them reliably strengthen their defenses against the constantly changing cyber threat landscape."
