@@ -1,4 +1,4 @@
-# Related Initiatives
+# Similar Initiatives
 This document is intended to list initiative similar (somehow) to our DDoS Clearing House.
 
 ## RELATED WORK
