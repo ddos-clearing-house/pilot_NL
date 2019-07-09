@@ -1,8 +1,5 @@
 # Similar Initiatives
-This document is intended to list initiative similar (somehow) to our DDoS Clearing House.
-
-## RELATED WORK
-**Other (somehow similar) projects, although all are great, none of the projects bellow create/share/use DDoS attack fingerprints for any purpose!**
+This document is intended to list initiatives that are similar (somehow) to our DDoS Clearing House. Although those initiatives are great, the main different is that (so far) none of them proposes/creates/shares/uses DDoS attack fingerprints (on the way we intend to do). Bellow, we describe how each initiative describes themselve.
 
 - https://galois.com/project/3dcop-ddos-defense/
   - "The DDoS Defense for a Community of Peers (3DCoP) uses a unique collaborative model wherein multiple organizations work together to detect DDoS attacks, compute mitigations, and convince service providers to take action. Our solution advances the state of DDoS defense by providing new tools that allow multiple defenders to coordinate their response, resulting in earlier detection and faster DDoS mitigation. Underlying our implementation is a unique traffic flow monitoring capability, which observes traffic flows in and out of the enclave and finds patterns of interest."
