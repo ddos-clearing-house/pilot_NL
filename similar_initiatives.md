@@ -1,8 +1,11 @@
 # Similar Initiatives
-This document is intended to list initiatives that are similar (somehow) to our DDoS Clearing House. Although those initiatives are great, the main different is that (so far) none of them proposes/creates/shares/uses DDoS attack fingerprints (on the way we intend to do). Bellow, we describe how each initiative describes themselve.
+This document is intended to list initiatives that are similar to our DDoS Clearing House (at some level). Although those initiatives are great, the main different is that (so far) none of them proposes/creates/shares/uses DDoS attack fingerprints (as we do). Bellow, we describe how each initiative describes themselve.
 
 - https://galois.com/project/3dcop-ddos-defense/
   - "The DDoS Defense for a Community of Peers (3DCoP) uses a unique collaborative model wherein multiple organizations work together to detect DDoS attacks, compute mitigations, and convince service providers to take action. Our solution advances the state of DDoS defense by providing new tools that allow multiple defenders to coordinate their response, resulting in earlier detection and faster DDoS mitigation. Underlying our implementation is a unique traffic flow monitoring capability, which observes traffic flows in and out of the enclave and finds patterns of interest."
+
+- https://datatracker.ietf.org/wg/dots/about/
+  - "The aim of DDoS Open Threat Signaling (DOTS) is to develop a standards based approach for the realtime signaling of DDoS related telemetry and threat handling requests and data between elements concerned with DDoS attack detection, classification, traceback, and mitigation."
 
 - https://www.impactcybertrust.org 
   - "IMPACT supports the global cyber-risk research & development community by coordinating and developing real-world data and information-sharing capabilities between academia, industry and government. It is the only freely-available, legally-collected, distributed repository of large-scale cybersecurity data and analytics tools allowing researchers to advance the state-of-the-art in cyber-risk R&D and decision support."
